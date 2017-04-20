@@ -26,6 +26,5 @@ document.getElementById('calcBtn').addEventListener('click', () => {
             <td class="currency">${Math.round(year.balance)}</td>
         </tr>
     `);
-    console.log(html)
     document.getElementById("amortization").innerHTML = html;
 });
